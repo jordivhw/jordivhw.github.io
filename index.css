@@ -1,1 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container {
+    width: 70%;
+    margin-left: 15%;
+    background: forestgreen;
+}
 
