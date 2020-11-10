@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ThreeDimentionalFont;
+    src: url("src/BEYONDCONTROL.ttf");
+}
+
 * {
     box-sizing: border-box;
     margin: 0 auto;
@@ -5,11 +10,24 @@
 
 
 .container {
-    width: 100%;
+    width: calc(100% - 18rem);
     background: rgba(116,122,140,0.6);
     position: relative;
     left: 18rem;
+    height: 100vh;
+    top: 20vh;
+    z-index: 0;
+    margin: 0;
+}
+
+.name-container {
+    background: pink;
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    left: 18rem;
     margin-right: 10rem;
+    z-index: 1000;
 }
 
 nav {
@@ -26,7 +44,7 @@ nav {
     text-align: center;
     list-style-type: none;
     margin: 0;
-    padding: 20vh 0 0 0;
+    padding: 12.5vh 0 0 0;
 }
 
 #passport-picture {
@@ -46,6 +64,20 @@ nav {
     transition: all 0.8s ease;
     color: pink;
     border: 1px solid pink;
+}
+
+#title-name {
+    font-family: ThreeDimentionalFont, sans-serif;
+    color: black;
+    width: 37.5%;
+    position: relative;
+    left: 2rem;
+    margin: 0;
+    top: 2rem;
+    padding: 2px;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 30px;
 }
 
 
