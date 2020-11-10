@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="30dfc61e-7cae-4ec2-8e6a-5f882045836b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +34,21 @@
       <option name="presentableId" value="Default" />
       <updated>1604833101120</updated>
       <workItem from="1604833102255" duration="647000" />
-      <workItem from="1604995254082" duration="715000" />
+      <workItem from="1604995254082" duration="2081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604995924893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1920.532.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1604995924893" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604995924245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.532.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1604995924245" />
   </component>
 </project>
