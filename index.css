@@ -35,4 +35,16 @@ nav {
     max-width: 10rem;
 }
 
+.nav-item {
+    font-family: BeyondControl sans-serif;
+    font-size: 1.5rem;
+    padding: 0.2rem 0 0.5rem 0;
+}
+
+.nav-item:hover {
+    transition: 0.5s;
+    color: pink;
+    border: 1px solid pink;
+}
+
 
