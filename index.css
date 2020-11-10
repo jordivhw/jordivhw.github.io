@@ -3,15 +3,9 @@
     margin: 0 auto;
 }
 
-body {
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .container {
     width: 70%;
     margin-left: 15%;
     background: rgba(116,122,140,0.6);
 }
-
