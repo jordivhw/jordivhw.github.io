@@ -3,6 +3,8 @@
     src: url("src/BEYONDCONTROL.ttf");
 }
 
+html{scroll-behavior:smooth}
+
 * {
     box-sizing: border-box;
     margin: 0 auto;
@@ -12,7 +14,6 @@
     width: calc(100% - 18rem);
     position: relative;
     left: 18rem;
-    height: 100vh;
     top: 8rem;
     z-index: 0;
     margin: 0;
@@ -55,6 +56,16 @@ nav {
     border: 1px solid pink;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:visited {
+    text-decoration: none;
+    color: pink;
+}
+
 
 .name-container {
     background: pink;
@@ -83,3 +94,7 @@ nav {
     max-width: 5rem;
 }
 
+.categories {
+    height: 60vh;
+    padding-top: 10rem;
+}
