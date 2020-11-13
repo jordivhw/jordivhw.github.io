@@ -2,7 +2,9 @@ let toTopPicture = document.getElementById("passport-picture");
 let githubLogo = document.getElementById("github_icon");
 let linkedinLogo = document.getElementById("linkedin_icon");
 let facebookLogo = document.getElementById("facebook_icon");
-let instaLogo = document.getElementById("instagram_icon")
+let instaLogo = document.getElementById("instagram_icon");
+let iconsSection = document.getElementById("IconsSection");
+
 
 toTopPicture.addEventListener("click", scrollToTop);
 linkedinLogo.addEventListener("click", openLinkedin);
@@ -33,4 +35,15 @@ function openFacebook() {
 function openInsta() {
     window.open("https://www.instagram.com/jordi.vanheeswyck/");
 }
+
+window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    let opacity = 0;
+    if (currentScroll <= 100) {
+        opacity = 1 - currentScroll / 100;
+    } else {
+        opacity = 0;
+    }
+    iconsSection.style.opacity = opacity;
+});
 
