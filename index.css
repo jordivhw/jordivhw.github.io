@@ -95,6 +95,19 @@ nav {
 }
 
 .categories {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.5rem;
     height: 60vh;
-    padding-top: 10rem;
+    padding-top: 8rem;
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons {
+    position: relative;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem 1rem 0 0
 }
