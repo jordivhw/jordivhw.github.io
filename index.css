@@ -112,8 +112,8 @@ nav {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 1.5rem;
     height: 60vh;
-    padding-top: 20rem;
     padding-left: 1rem;
+    padding-top: 10rem;
     background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -140,4 +140,21 @@ nav {
 .icons_title {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 1.5rem;
+}
+
+.full_bars {
+    background: pink;
+    height: 1.2rem;
+    width: 10rem;
+}
+
+.htmlBar {
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+    float: left;
+}
+
+table {
+    float: left;
 }
