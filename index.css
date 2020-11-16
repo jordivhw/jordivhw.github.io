@@ -3,6 +3,10 @@
     src: url("src/BEYONDCONTROL.ttf");
 }
 
+.clearfix {
+    clear: both;
+}
+
 html{
     scroll-behavior:smooth
 }
@@ -68,13 +72,17 @@ nav {
 
 .nav-item:hover {
     transition: all 0.8s ease;
-    color: #82AEB1;
-    border: 1px solid #93C6D6;
+    border: 1px solid aqua;
 }
 
 .nav-item a {
     text-decoration: none;
     color: aliceblue;
+}
+
+.nav-item a:hover {
+    transition: all 0.5s ease;
+    color: aqua;
 }
 
 .nav-item:visited {
@@ -100,7 +108,7 @@ nav {
     display: inline;
     position: fixed;
     top: 2rem;
-    color: whitesmoke;
+    color: aqua;
 }
 
 #cartoon-me {
@@ -116,7 +124,7 @@ nav {
     font-size: 1.5rem;
     min-height: 80vh;
     padding-top: 10rem;
-    color: #296c92;
+    color: #007e8a;
     position: relative;
     left: 1rem;
     margin-left: 0;
@@ -136,9 +144,6 @@ nav {
     margin: 1rem 1rem 0 0
 }
 
-.icons:hover {
-    background-color: #93C6D6;
-}
 
 #IconsSection {
     position: fixed;
@@ -170,7 +175,7 @@ nav {
     padding: 3em 2em 2em;
     position: relative;
     color: black;
-    border-left: 4px solid blue;
+    border-left: 4px solid aqua;
     left: 1rem;
     margin-left: 0;
 }
@@ -197,16 +202,26 @@ nav {
  }
 
 
-#skillsTable {
+.skillsTables {
     float: left;
+    color: black;
+    margin: 0.8rem 0 2rem 2rem;
 }
 
-#skillsTable tr td:nth-child(3){
+.skillsTables tr td:nth-child(3){
     padding-left: 5rem;
+}
+
+.typeSkill {
+    margin-left: 1rem;
 }
 
 table tr {
     height: 4rem;
+}
+
+table td {
+    float: left;
 }
 
 
@@ -224,7 +239,7 @@ table tr {
 
 .skillbar {
     height: 100%;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0,109,119,1) 30%, rgba(0,255,255,1) 100%);
     float: left;
 }
 
@@ -236,7 +251,53 @@ table tr {
     width: 90%;
 }
 
+#skillJava {
+    width: 65%;
+}
 
+#skillC\# {
+    width: 75%;
+}
+
+#skillPython {
+    width: 50%;
+}
+
+#skillSql {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* change icon src on hover so they become blue*/
+#linkedin_icon:hover {
+    content: url("src/blue_linkedin_Icon.png");
+}
+
+#github_icon:hover {
+    content: url("src/blue_github+icon.png");
+}
+
+#facebook_icon:hover {
+    content: url("src/blue_facebook_Icon.png");
+}
+
+#instagram_icon:hover {
+    content: url("src/blue_instagram_Icon.png");
+}
 
 
 
