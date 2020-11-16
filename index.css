@@ -188,18 +188,18 @@ nav {
  }
 
 
-table {
+#skillsTable {
     float: left;
-    margin-left: 1rem;
+}
+
+#skillsTable tr td:nth-child(3){
+    padding-left: 5rem;
 }
 
 table tr {
     height: 4rem;
 }
 
-/*table, td {*/
-/*    border: 1px solid black;*/
-/*}*/
 
 .skillTitles {
     width: 8rem;
