@@ -3,9 +3,12 @@
     src: url("src/BEYONDCONTROL.ttf");
 }
 
-html{scroll-behavior:smooth}
+html{
+    scroll-behavior:smooth
+}
 
 * {
+    font-family: "Times New Roman", sans-serif;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -36,9 +39,8 @@ span {
 
 nav {
     position: fixed;
-    background: darkblue;
+    background-color: #006D77;
     width: 18rem;
-    color: white;
     top: 0;
     left: 0;
     height: 100vh;
@@ -66,38 +68,39 @@ nav {
 
 .nav-item:hover {
     transition: all 0.8s ease;
-    color: pink;
-    border: 1px solid pink;
+    color: #82AEB1;
+    border: 1px solid #93C6D6;
 }
 
 .nav-item a {
     text-decoration: none;
-    color: white;
+    color: aliceblue;
 }
 
 .nav-item:visited {
     text-decoration: none;
-    color: pink;
+    color: #93C6D6;
 }
 
 
 .name-container {
-    background: pink;
     height: 8rem;
     width: 100%;
     position: fixed;
     left: 18rem;
     margin-right: 10rem;
     z-index: 1000;
+    /*background: linear-gradient(to right, #39a2fe 0%, #4facfe 100%);*/
+    background-color: #006D77;
 }
 
 #title-name {
     font-family: ThreeDimentionalFont, sans-serif;
-    color: black;
     font-size: 30px;
     display: inline;
     position: fixed;
     top: 2rem;
+    color: whitesmoke;
 }
 
 #cartoon-me {
@@ -108,12 +111,12 @@ nav {
     max-width: 5rem;
 }
 
+
 .categories {
-    font-family: Impact, Charcoal, sans-serif;
     font-size: 1.5rem;
     min-height: 80vh;
     padding-top: 10rem;
-    color: blue;
+    color: #296c92;
     position: relative;
     left: 1rem;
     margin-left: 0;
@@ -122,6 +125,7 @@ nav {
 
 .categories h1 {
     padding-bottom: 1rem;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 .icons {
@@ -132,14 +136,19 @@ nav {
     margin: 1rem 1rem 0 0
 }
 
+.icons:hover {
+    background-color: #93C6D6;
+}
+
 #IconsSection {
     position: fixed;
     top: 9rem;
     left: 19rem;
+    z-index: 100;
 }
 
+
 .icons_title {
-    font-family: Impact, Charcoal, sans-serif;
     font-size: 1.5rem;
 }
 
