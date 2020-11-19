@@ -202,29 +202,30 @@ nav {
  }
 
 
-.skillsTables {
+.skillsList {
     color: black;
-    margin: 0.8rem 0 2rem 2rem;
-}
-
-.skillsTables tr td:nth-child(3){
-    padding-left: 5rem;
-}
-
-.typeSkill {
-    margin-left: 1rem;
-}
-
-table tr {
-    height: 4rem;
-}
-
-table td {
+    list-style-type: none;
+    width: 50rem;
     float: left;
+    vertical-align: center;
 }
 
-.skillTitles {
-    width: 8rem;
+.skillsList li {
+    float: left;
+    width: 25%;
+    margin: 1rem 0 1rem 0;
+}
+
+.skillTitles_third {
+    margin-left: 4rem;
+}
+
+.clearfix_fullscreen {
+    clear: both;
+}
+
+.clearfix_media {
+    clear: none;
 }
 
 .skillLogos {
@@ -234,17 +235,10 @@ table td {
     padding: 0;
 }
 
-.toolsTable {
-    float: left;
-    margin-left: 2rem;
-}
-
-
 .full_bars {
     background: pink;
-    height: 1.2rem;
+    height: 1.5rem;
     width: 10rem;
-    margin: 0 1rem 0 1rem;
 }
 
 .skillbar {
@@ -278,8 +272,25 @@ table td {
 }
 
 
+.toolsTable {
+    float: left;
+    margin-left: 2rem;
+}
 
 
+
+@media screen and (max-width: 1199px) {
+
+        .clearfix_media {
+            clear: both;
+        }
+
+        .skillTitles_third {
+            margin: 0;
+        }
+
+
+}
 
 
 
