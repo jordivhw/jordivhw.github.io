@@ -4,8 +4,10 @@ let linkedinLogo = document.getElementById("linkedin_icon");
 let facebookLogo = document.getElementById("facebook_icon");
 let instaLogo = document.getElementById("instagram_icon");
 let iconsSection = document.getElementById("IconsSection");
+let aboutNav = document.getElementById("about-navigation");
 
 
+aboutNav.addEventListener("click", scrollToTop);
 toTopPicture.addEventListener("click", scrollToTop);
 linkedinLogo.addEventListener("click", openLinkedin);
 githubLogo.addEventListener("click", openGithub);
