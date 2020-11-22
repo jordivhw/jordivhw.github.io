@@ -5,6 +5,9 @@ let facebookLogo = document.getElementById("facebook_icon");
 let instaLogo = document.getElementById("instagram_icon");
 let iconsSection = document.getElementById("IconsSection");
 let aboutNav = document.getElementById("about-navigation");
+let navigationBar = document.getElementById("navBar");
+let navItems = document.getElementsByClassName("nav-item");
+
 
 
 aboutNav.addEventListener("click", scrollToTop);
@@ -47,5 +50,27 @@ window.addEventListener("scroll", () => {
         opacity = 0;
     }
     iconsSection.style.opacity = opacity;
+    RemovenameSmallscreen(600);
 });
 
+
+
+function RemovenameSmallscreen(x) {
+    if (window.innerWidth <= x) { // If media query matches
+        if (window.pageYOffset >= 100) {
+            navigationBar.style.position = 'fixed';
+            navigationBar.style.top = '0';
+            for (var i = 0; i < navItems.length; i++) {
+                navItems[i].style.marginTop = '0.5rem';
+            }
+            
+        } else {
+            navigationBar.style.position = 'absolute';
+            navigationBar.style.top = '7rem';
+        }
+    }
+}
+
+var x = window.matchMedia("(max-width: 600px)")
+RemovenameSmallscreen(x) // Call listener function at run time
+x.addListener(RemovenameSmallscreen) // Attach listener function on state changes
