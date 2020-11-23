@@ -157,7 +157,7 @@ nav {
     font-size: 1.5rem;
 }
 
-#About p {
+.paragraphs {
     color: black;
     position: relative;
     left: 1rem;
